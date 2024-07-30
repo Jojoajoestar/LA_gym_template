@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Project Overview
 
-## Getting Started
+LA Gym is a fitness website designed to provide users with information about gym membership plans, classes, trainers, and contact details. The website features a modern design with responsive layouts, animations, and user interactions to enhance the user experience.
 
-First, run the development server:
+Features
+Responsive Design: Adapts to various screen sizes and devices.
+Interactive Calendar: Displays gym classes with details and allows users to filter and view class information.
+Trainer Profiles: Showcases gym trainers with images, names, and social media links.
+Membership Plans: Lists different membership plans with features and pricing.
+Contact Form: Allows users to contact the gym with a form and includes a map.
+Smooth Animations: Enhances user interactions with smooth animations and hover effects.
 
-```bash
+Installation
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+git clone https://github.com/your-username/levels-gym.git
+cd levels-gym
+
+2. Install dependencies:
+npm install
+
+3. Start the development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open the project in your browser:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Navigate to http://localhost:3000 to see the website in action.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Usage
+Navigate the Website: Use the navigation bar to explore different sections of the website.
+View Classes: Check the calendar for available classes and their details.
+Learn About Trainers: View trainer profiles with their social media links.
+Explore Membership Plans: Review the available gym membership plans.
+Contact the Gym: Use the contact form to get in touch with the gym.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+The project follows a structured folder organization:
+.
+├── components
+│   ├── calendar
+│   │   ├── BigCalendar.jsx
+│   │   ├── Filter.jsx
+│   │   └── GlobalStyle.js
+│   ├── common
+│   │   ├── Button.jsx
+│   │   ├── PlansCard.jsx
+│   │   └── TrainerCard.jsx
+│   ├── layouts
+│   │   ├── Footer.jsx
+│   │   └── Navbar.jsx
+│   ├── pages
+│   │   ├── About.jsx
+│   │   ├── Classes.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Home.jsx
+│   │   ├── Plans.jsx
+│   │   └── Trainers.jsx
+├── pages
+│   ├── _app.js
+│   ├── _document.js
+│   └── index.js
+├── public
+│   └── assets
+│       └── img
+├── styles
+│   └── globals.css
+├── classData.json
+├── next.config.js
+├── package.json
+└── tailwind.config.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Configuration
+Next.js Configuration: Basic configuration in next.config.js.
+Tailwind CSS Configuration: Tailwind CSS setup in tailwind.config.js.
+Class Data: Class information stored in classData.json.

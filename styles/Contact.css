@@ -1,0 +1,17 @@
+/* styles/Contact.css */
+.modal {
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,116 @@
+{
+  "classes": [
+    {
+      "title": "Yoga",
+      "date": "2024-07-29",
+      "description": "Join us for an invigorating yoga session to start your day!",
+      "time": "5:00 AM - 6:00 AM",
+      "instructor": "Alice",
+      "location": "Studio A"
+    },
+    {
+      "title": "Spin Class",
+      "date": "2024-07-29",
+      "description": "High energy spin class to get your heart pumping!",
+      "time": "7:00 AM - 8:00 AM",
+      "instructor": "Bob",
+      "location": "Studio B"
+    },
+    {
+      "title": "Pilates",
+      "date": "2024-07-29",
+      "description": "Strengthen your core with our Pilates class.",
+      "time": "9:00 AM - 10:00 AM",
+      "instructor": "Charlie",
+      "location": "Studio C"
+    },
+    {
+      "title": "HIIT",
+      "date": "2024-07-29",
+      "description": "High Intensity Interval Training to push your limits!",
+      "time": "5:00 PM - 6:00 PM",
+      "instructor": "David",
+      "location": "Gym Floor"
+    },
+    {
+      "title": "Yoga",
+      "date": "2024-07-30",
+      "description": "Join us for an invigorating yoga session to start your day!",
+      "time": "5:00 AM - 6:00 AM",
+      "instructor": "Alice",
+      "location": "Studio A"
+    },
+    {
+      "title": "Spin Class",
+      "date": "2024-07-30",
+      "description": "High energy spin class to get your heart pumping!",
+      "time": "7:00 AM - 8:00 AM",
+      "instructor": "Bob",
+      "location": "Studio B"
+    },
+    {
+      "title": "Pilates",
+      "date": "2024-07-30",
+      "description": "Strengthen your core with our Pilates class.",
+      "time": "9:00 AM - 10:00 AM",
+      "instructor": "Charlie",
+      "location": "Studio C"
+    },
+    {
+      "title": "HIIT",
+      "date": "2024-07-30",
+      "description": "High Intensity Interval Training to push your limits!",
+      "time": "5:00 PM - 6:00 PM",
+      "instructor": "David",
+      "location": "Gym Floor"
+    },
+    {
+      "title": "Yoga",
+      "date": "2024-07-31",
+      "description": "Join us for an invigorating yoga session to start your day!",
+      "time": "5:00 AM - 6:00 AM",
+      "instructor": "Alice",
+      "location": "Studio A"
+    },
+    {
+      "title": "Spin Class",
+      "date": "2024-07-31",
+      "description": "High energy spin class to get your heart pumping!",
+      "time": "7:00 AM - 8:00 AM",
+      "instructor": "Bob",
+      "location": "Studio B"
+    },
+    {
+      "title": "Pilates",
+      "date": "2024-07-31",
+      "description": "Strengthen your core with our Pilates class.",
+      "time": "9:00 AM - 10:00 AM",
+      "instructor": "Charlie",
+      "location": "Studio C"
+    },
+    {
+      "title": "HIIT",
+      "date": "2024-07-31",
+      "description": "High Intensity Interval Training to push your limits!",
+      "time": "5:00 PM - 6:00 PM",
+      "instructor": "David",
+      "location": "Gym Floor"
+    },
+    {
+      "title": "Zumba",
+      "date": "2024-08-01",
+      "description": "Dance your way to fitness with Zumba.",
+      "time": "6:00 PM - 7:00 PM",
+      "instructor": "Eva",
+      "location": "Studio D"
+    },
+    {
+      "title": "Boxing",
+      "date": "2024-08-02",
+      "description": "Boxing class for all skill levels.",
+      "time": "8:00 PM - 9:00 PM",
+      "instructor": "Frank",
+      "location": "Gym Floor"
+    }
+  ]
+}
